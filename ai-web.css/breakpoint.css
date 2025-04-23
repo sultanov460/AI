@@ -12,7 +12,15 @@
         padding: 64px 100px;
     }
 
+    .about{
+        flex-direction: column-reverse;
+        padding: 0 10px !important; 
+    }
 
+    .about-text{
+        justify-content: center;
+    }
+    
 }
 
 @media (max-width:900px){
@@ -38,6 +46,21 @@
 
     .hero-wrapper img{
         display: none;
+    }
+
+    .about img{
+        height: 318px;
+        width: 352px;
+    }
+
+    .about-text h1{
+        font-size: 30px;
+    }
+
+    .about{
+        padding: 0;
+        margin: 0;
+        justify-content: left;
     }
 
 }
@@ -69,6 +92,10 @@
     }
 
     .hero-btn button{
+        width: 100%;
+    }
+
+    .service-card{
         width: 100%;
     }
 }
