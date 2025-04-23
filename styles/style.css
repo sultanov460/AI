@@ -1,0 +1,20 @@
+:root {
+  --primary-color: #3a68b8;
+  --bg-color: #020a18;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
