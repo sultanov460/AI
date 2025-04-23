@@ -20,6 +20,10 @@
     .about-text{
         justify-content: center;
     }
+
+    .footer{
+        padding: 90px 75px !important;
+    }
     
 }
 
@@ -61,6 +65,31 @@
         padding: 0;
         margin: 0;
         justify-content: left;
+    }
+
+    .footer{
+        padding: 80px 20px !important;
+    }
+
+    .footer-columns{
+        flex-direction: column !important;
+    }
+
+    .footer-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-column{
+        display: none !important;
+    }
+
+    .footer-information{
+        text-align: center !important;
+    }
+
+    .company-adress h3{
+        text-align: center !important;
     }
 
 }
