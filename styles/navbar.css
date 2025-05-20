@@ -26,6 +26,11 @@
   font-size: 16px;
   text-decoration: none;
   color: #fff;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
 }
 
 nav h1 {
@@ -42,6 +47,13 @@ nav h1 {
   color: #fff;
   border-radius: 5px;
   margin-left: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: var(--bg-color);
+  transform: scale(1.05);
 }
 
 .navlogo {
